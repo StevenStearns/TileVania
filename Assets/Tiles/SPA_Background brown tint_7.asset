@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: SPA_Rock_Grass_Water_28
+  m_Name: SPA_Background brown tint_7
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: 2008618515, guid: 4a6af19256638394a97de7320fb59fd3, type: 3}
-  m_Color: {r: 0, g: 1, b: 0.9706273, a: 1}
+  m_Sprite: {fileID: -67350538, guid: f7424a9a11e6e3a46b3325471e3a650f, type: 3}
+  m_Color: {r: 0.028435374, g: 0.6698113, b: 0.12226199, a: 1}
   m_Transform:
     e00: 1
     e01: 0
