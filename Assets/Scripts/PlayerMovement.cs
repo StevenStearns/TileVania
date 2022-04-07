@@ -2,12 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+
 public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] float fltRunSpeed = 10f;
     [SerializeField] float fltJumpSpeed = 5f;
     Vector2 moveInput;
     Rigidbody2D myRigidbody;
+    CapsuleCollider2D myCapsuleCollider;
 
     Animator myAnimator;
     
@@ -15,6 +17,7 @@ public class PlayerMovement : MonoBehaviour
     {
         myRigidbody = GetComponent<Rigidbody2D>();
         myAnimator = GetComponent<Animator>();
+        myCapsuleCollider = GetComponent<CapsuleCollider2D>();
     }
 
     
@@ -32,6 +35,10 @@ public class PlayerMovement : MonoBehaviour
 
    void OnJump(InputValue value)
    {
+       if(!myCapsuleCollider.IsTouchingLayers(LayerMask.GetMask("Ground")))
+        {
+            return;
+        }
        if(value.isPressed)
        {
            // do stuff
