@@ -7,6 +7,7 @@ public class EnemyMovement : MonoBehaviour
     [SerializeField] float fltMoveSpeed = 1;
     Rigidbody2D myRigidbody;
 
+
     
     void Start()
     {

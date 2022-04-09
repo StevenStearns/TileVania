@@ -20980,6 +20980,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1114254567154673744, guid: 2e5188492a3c9bb4db5e35884e7a5612, type: 3}
+      propertyPath: deathKick.x
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 1114254567154673744, guid: 2e5188492a3c9bb4db5e35884e7a5612, type: 3}
+      propertyPath: deathKick.y
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 6444478699628796521, guid: 2e5188492a3c9bb4db5e35884e7a5612, type: 3}
       propertyPath: m_RootOrder
       value: 2
