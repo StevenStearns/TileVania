@@ -24,7 +24,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1085458442894739658}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.22, y: -0.16, z: 0}
+  m_LocalPosition: {x: 0.39, y: -0.15, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -224,7 +224,9 @@ MonoBehaviour:
   fltRunSpeed: 7
   fltJumpSpeed: 20
   fltClimbSpeed: 5
-  deathKick: {x: 20, y: 20}
+  deathKick: {x: 15, y: 15}
+  Bullet: {fileID: 4046033193667852148, guid: 1599e833264e086439e1857ad2ae7916, type: 3}
+  gun: {fileID: 793439076743789116}
 --- !u!61 &7026014968164853606
 BoxCollider2D:
   m_ObjectHideFlags: 0

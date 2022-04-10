@@ -1497,7 +1497,7 @@ TilemapRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a30f635ada06c904cb112cce08a81210, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -30525,7 +30525,7 @@ GameObject:
   - component: {fileID: 1816741699}
   m_Layer: 11
   m_Name: Soap Slime (enemy)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30693,11 +30693,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fltMoveSpeed: 1
---- !u!4 &1825002608 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 793439076743789116, guid: 2e5188492a3c9bb4db5e35884e7a5612, type: 3}
-  m_PrefabInstance: {fileID: 6444478699813005023}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1842670615
 GameObject:
   m_ObjectHideFlags: 0
@@ -30999,22 +30994,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1114254567154673744, guid: 2e5188492a3c9bb4db5e35884e7a5612, type: 3}
-      propertyPath: gun
-      value: 
-      objectReference: {fileID: 1825002608}
-    - target: {fileID: 1114254567154673744, guid: 2e5188492a3c9bb4db5e35884e7a5612, type: 3}
-      propertyPath: Bullet
-      value: 
-      objectReference: {fileID: 4046033193667852148, guid: 1599e833264e086439e1857ad2ae7916, type: 3}
-    - target: {fileID: 1114254567154673744, guid: 2e5188492a3c9bb4db5e35884e7a5612, type: 3}
-      propertyPath: deathKick.x
-      value: 15
-      objectReference: {fileID: 0}
-    - target: {fileID: 1114254567154673744, guid: 2e5188492a3c9bb4db5e35884e7a5612, type: 3}
-      propertyPath: deathKick.y
-      value: 15
-      objectReference: {fileID: 0}
     - target: {fileID: 6444478699628796521, guid: 2e5188492a3c9bb4db5e35884e7a5612, type: 3}
       propertyPath: m_RootOrder
       value: 2
